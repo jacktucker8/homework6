@@ -14,10 +14,10 @@ document.querySelector("#pause").addEventListener("click", function() {
 
 var vid = document.getElementById("myVideo");
 
-function playVid() {
+function play() {
     vid.play();
 }
 
-function pauseVid() {
+function pause() {
     vid.pause();
 }
