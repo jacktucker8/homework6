@@ -15,11 +15,3 @@ document.querySelector("#pause").addEventListener("click", function() {
 });
 
 
-
-function play() {
-	video.play();
-}
-
-function pause() {
-	video.pause();
-}
