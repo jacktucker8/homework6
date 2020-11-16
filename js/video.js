@@ -12,3 +12,12 @@ document.querySelector("#pause").addEventListener("click", function() {
 	
 });
 
+var vid = document.getElementById("myVideo");
+
+function playVid() {
+    vid.play();
+}
+
+function pauseVid() {
+    vid.pause();
+}
