@@ -1,5 +1,3 @@
-<script>
-
 var video;
 
 window.addEventListener("load", function() {
@@ -17,14 +15,11 @@ document.querySelector("#pause").addEventListener("click", function() {
 });
 
 
-var vid = document.getElementById("myVideo");
 
 function play() {
-	vid.play();
+	video.play();
 }
 
 function pause() {
-	vid.pause();
+	video.pause();
 }
-
-</script>
