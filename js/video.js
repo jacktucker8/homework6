@@ -6,18 +6,17 @@ window.addEventListener("load", function() {
 
 document.querySelector("#play").addEventListener("click", function() {
 	console.log("Play Video");
+	function play() {
+		vid.play();
+}
 });
 
 document.querySelector("#pause").addEventListener("click", function() {
+	console.log ("Pause Video");
+	function pause() {
+		vid.pause();
+}
+
 	
 });
 
-var vid = document.getElementById("myVideo");
-
-function play() {
-    vid.play();
-}
-
-function pause() {
-    vid.pause();
-}
