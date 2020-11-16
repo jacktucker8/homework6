@@ -1,3 +1,5 @@
+<script>
+
 var video;
 
 window.addEventListener("load", function() {
@@ -24,3 +26,5 @@ function play() {
 function pause() {
 	vid.pause();
 }
+
+</script>
