@@ -14,7 +14,7 @@ document.querySelector("#pause").addEventListener("click", function() {
 	
 });
 
-video.addEventListener("volumechange", function() {
-      console.log('volumeSlider.');
-      console.log('Volume is: ' + video.volume);
+document.querySelector("#slower").addEventListener("click", function() {
+	video.playbackrate()= .1;
+	
 });
