@@ -28,3 +28,9 @@ document.querySelector("#skip").addEventListener("click", function() {
 	video.currentTime= video.currentTime + 5;
 	
 });
+
+
+document.querySelector("#mute").addEventListener("click", function() {
+	video.muted= true;
+	
+});
