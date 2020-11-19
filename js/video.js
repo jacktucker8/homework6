@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
 
 document.querySelector("#play").addEventListener("click", function() {
 	video.play();
-	document.getElementById("volume").innerText="video.volume"
+	document.getElementById("volume").innerText=video.volume;
 
 });
 
