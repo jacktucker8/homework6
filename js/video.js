@@ -41,5 +41,10 @@ document.querySelector("#mute").addEventListener("click", function() {
 });
 
 document.querySelector("#old").addEventListener("click", function() {
-	document.getElementById("myVideo").addClass.toggle("oldTime")
+	document.getElementById("myVideo").classList.add("oldTime")
+});
+
+
+document.querySelector("#old").addEventListener("click", function() {
+	document.getElementById("myVideo").classList.remove("oldTime")
 });
